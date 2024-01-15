@@ -1,5 +1,9 @@
 * {
   font-family: "Mulish", sans-serif;
+}
+/* main{
+  align-items: center;
+} */
 /* header style */
 header {
   display: flex;
@@ -81,6 +85,7 @@ nav li a {
 /* find search now  */
 .find-now {
   display: inline-flex;
+  /* justify-content: center; */
   padding: 16px;
   align-items: flex-start;
   gap: 24px;
@@ -106,18 +111,19 @@ nav li a {
 }
 /*  Our Popular section */
 .tour-section {
-  margin-top: 100px;
+  margin-top: 50px;
   display: flex;
-  padding: 50px; 
+  justify-content: center;
+  padding: 50px;
   gap: 130px;
 }
 .tour-title {
   color: #131318;
   font-size: 40px;
   font-weight: 800;
-margin: 20px 0;
+  margin: 20px 0;
 }
-.tour-section >div li{
+.tour-section > div li {
   margin-bottom: 34px;
 }
 .btn-read {
@@ -136,7 +142,6 @@ margin: 20px 0;
   width: 577px;
   color: rgba(19, 19, 24, 0.7);
   font-size: 16px;
-
   font-weight: 400;
   line-height: 26px;
 }
@@ -147,14 +152,165 @@ margin: 20px 0;
   font-weight: 400;
   line-height: 26px;
 }
-.image-tour{
-margin-top: 50px;
+.image-tour {
+  margin-top: 50px;
   width: 540px;
-  height:550px;
+  height: 550px;
 }
+/* Destination Section */
+.destination-div {
+  text-align: center;
+  justify-content: center;
+}
+.destination-title {
+  color: #131318;
+  font-size: 40px;
+  font-weight: 800;
+}
+.destination-description {
+  color: rgba(19, 19, 24, 0.7);
+  font-weight: 400;
+  line-height: 26px;
+}
+/* Places part  */
+.two-img {
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+}
+.maldives {
+  background: linear-gradient(
+      0deg,
+      rgba(19, 19, 24, 0.2) 0%,
+      rgba(19, 19, 24, 0.2) 100%
+    ),
+    url(../Images/Rectangle\ 5.png);
+  color: #fff;
+  text-align: center;
+  font-size: 28px;
+  font-weight: 800;
+  padding: 132px 227px;
+  border-radius: 16px;
+}
+.indonesia {
+  background: linear-gradient(
+      0deg,
+      rgba(19, 19, 24, 0.2) 0%,
+      rgba(19, 19, 24, 0.2) 100%
+    ),
+    url(../Images/Rectangle\ 8.png);
+  color: #fff;
+  text-align: center;
+  font-size: 28px;
+  font-weight: 800;
+  padding: 132px 220px;
+}
+.three-img {
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+}
+.srilanka {
+  border-radius: 16px;
+  background: linear-gradient(
+      0deg,
+      rgba(19, 19, 24, 0.2) 0%,
+      rgba(19, 19, 24, 0.2) 100%
+    ),
+    url(../Images/Rectangle\ 6.png);
+  color: #fff;
+  text-align: center;
+  font-size: 28px;
+  font-weight: 800;
+  padding: 125px 130px;
+  margin: 0;
+}
+.north-america {
+  border-radius: 16px;
+  background: linear-gradient(
+      0deg,
+      rgba(19, 19, 24, 0.2) 0%,
+      rgba(19, 19, 24, 0.2) 100%
+    ),
+    url(../Images/Rectangle\ 7.png);
+  color: #fff;
+  text-align: center;
+  font-size: 28px;
+  font-weight: 800;
+  padding: 125px 136px;
+  margin: 0;
+}
+.kashmir {
+  border-radius: 16px;
+  background: linear-gradient(
+      0deg,
+      rgba(19, 19, 24, 0.2) 0%,
+      rgba(19, 19, 24, 0.2) 100%
+    ),
+    url(../Images/Rectangle\ 9.png);
+  color: #fff;
+  text-align: center;
+  font-size: 28px;
+  font-weight: 800;
+  padding: 125.5px 81px;
+  margin: 0;
+}
+.last-two {
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+}
+.bangladesh {
+  border-radius: 16px;
+  background: linear-gradient(
+      0deg,
+      rgba(19, 19, 24, 0.2) 0%,
+      rgba(19, 19, 24, 0.2) 100%
+    ),
+    url(../Images/Rectangle\ 11.png);
+  color: #fff;
+  text-align: center;
+  font-size: 28px;
+  font-weight: 800;
+  padding: 132.5px 155.5px;
+  margin-bottom: 5px;
+}
+.bandarban {
+  border-radius: 16px;
+  background: linear-gradient(
+      0deg,
+      rgba(19, 19, 24, 0.2) 0%,
+      rgba(19, 19, 24, 0.2) 100%
+    ),
+    url(../Images/Rectangle\ 10.png);
+  color: #fff;
+  text-align: center;
+  font-size: 28px;
+  font-weight: 800;
+  padding: 132.5px 259.5px;
+  margin-bottom: 5px;
+}
+
 /* Responsive Styles */
-@media screen and (max-width;600px) {
-  .tour-section {
-   flex-direction: column;
+@media screen and (max-width: 600px) {
+  .banner {
+    width: 100%;
+    height: 483px;
+    margin-left: 50px;
+  }
+  .explore-title {
+    color: #fff;
+    font-size: 22px;
+    font-weight: 800;
+    padding-top: 20px;
+  }
+  .find-now,
+  header,
+  .tour-section,
+  .two-img,
+  .three-img,
+  .last-two {
+    align-items: center;
+    flex-direction: column;
   }
 }
