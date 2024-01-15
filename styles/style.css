@@ -1,0 +1,160 @@
+* {
+  font-family: "Mulish", sans-serif;
+/* header style */
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+header div {
+  display: flex;
+}
+.title {
+  align-items: center;
+  margin-left: 60px;
+  width: 100%;
+}
+.title-logo {
+  width: 48px;
+  height: 56.008px;
+  margin-right: 30px;
+}
+.section-title {
+  color: #131318;
+  font-size: 36px;
+  font-weight: 800;
+}
+.section-title span {
+  color: #ff5400;
+  font-size: 36px;
+  font-weight: 800;
+}
+.section-title img {
+}
+nav > ul {
+  display: flex;
+}
+ul span {
+  color: #ff5400;
+  font-size: 18px;
+  font-weight: 700;
+}
+.menu-bar > li {
+  list-style: none;
+  color: #424247;
+  text-align: center;
+  font-size: 18px;
+  font-style: normal;
+  margin-right: 50px;
+}
+nav li a {
+  text-decoration: none;
+  color: #424242;
+}
+/* explore section */
+.banner {
+  border-radius: 16px;
+  background: linear-gradient(
+      180deg,
+      rgba(19, 19, 24, 0.8) 0%,
+      rgba(19, 19, 24, 0) 100%
+    ),
+    url(../Images/banner.png);
+  width: 1170px;
+  height: 500px;
+  margin: 0 auto;
+  text-align: center;
+}
+.explore-title {
+  color: #fff;
+  font-size: 64px;
+  font-weight: 800;
+  padding-top: 80px;
+  margin: 0;
+}
+.explore-description {
+  color: #fff;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+}
+/* find search now  */
+.find-now {
+  display: inline-flex;
+  padding: 16px;
+  align-items: flex-start;
+  gap: 24px;
+  border-radius: 8px;
+  background: rgba(255, 255, 255, 0.3);
+}
+.text-type {
+  width: 174px;
+  height: 52px;
+  border-radius: 8px;
+  border: none;
+}
+.btn-find {
+  border-radius: 8px;
+  background: #ff5400;
+  width: 174px;
+  height: 52px;
+  border: none;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 700;
+  cursor: pointer;
+}
+/*  Our Popular section */
+.tour-section {
+  margin-top: 100px;
+  display: flex;
+  padding: 50px; 
+  gap: 130px;
+}
+.tour-title {
+  color: #131318;
+  font-size: 40px;
+  font-weight: 800;
+margin: 20px 0;
+}
+.tour-section >div li{
+  margin-bottom: 34px;
+}
+.btn-read {
+  color: #fff;
+  font-size: 20px;
+  font-weight: 800;
+  width: 174px;
+  height: 52px;
+  border-radius: 8px;
+  background: #ff5400;
+  border: none;
+  margin-top: 45px;
+  cursor: pointer;
+}
+.tour-description {
+  width: 577px;
+  color: rgba(19, 19, 24, 0.7);
+  font-size: 16px;
+
+  font-weight: 400;
+  line-height: 26px;
+}
+.tour-description2 {
+  width: 530px;
+  color: #5a5a5d;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+}
+.image-tour{
+margin-top: 50px;
+  width: 540px;
+  height:550px;
+}
+/* Responsive Styles */
+@media screen and (max-width;600px) {
+  .tour-section {
+   flex-direction: column;
+  }
+}
