@@ -158,16 +158,19 @@ nav li a {
   height: 550px;
 }
 /* Destination Section */
-.destination-div {
+.destination-div,
+.why-choose-div {
   text-align: center;
   justify-content: center;
 }
-.destination-title {
+.destination-title,
+.why-choose-title {
   color: #131318;
   font-size: 40px;
   font-weight: 800;
 }
-.destination-description {
+.destination-description,
+.why-choose-description {
   color: rgba(19, 19, 24, 0.7);
   font-weight: 400;
   line-height: 26px;
@@ -289,6 +292,45 @@ nav li a {
   font-weight: 800;
   padding: 132.5px 259.5px;
   margin-bottom: 5px;
+}
+/* why Choose Us */
+.services,
+.best-div {
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+}
+.hotels {
+  color: #131318;
+  text-align: center;
+  font-size: 24px;
+  font-weight: 800;
+  text-align: left;
+  padding: 128px 320px 0 32px;
+}
+.services-description {
+  text-align: left;
+  width: 486px;
+  color: #5a5a5d;
+  font-weight: 400;
+  line-height: 26px;
+  padding: 0 0 32px 32px;
+}
+.hotel-div {
+  border-radius: 16px;
+  border: 1px solid rgba(251, 181, 99, 0.2);
+  background: rgba(251, 181, 99, 0.05);
+}
+.world-div {
+  border-radius: 16px;
+  border: 1px solid rgba(41, 206, 246, 0.2);
+  background: rgba(41, 206, 246, 0.05);
+}
+.best-div-2 {
+  margin-top: 24px;
+  border-radius: 16px;
+  border: 1px solid rgba(233, 68, 68, 0.2);
+  background: rgba(233, 68, 68, 0.05);
 }
 
 /* Responsive Styles */
