@@ -400,77 +400,108 @@ nav li a {
 .fair-com {
   border-radius: 16px;
   background: #ff5400;
-padding: 30px;
+  padding: 30px;
   transform: rotate(-19.628deg);
-  margin: 250px 10px 0.14px 317px ;
-  color: #FFF;
-text-align: center;
-font-size: 24px;
-font-weight: 400;
-;
-}
-.save-70{
-  color: #FFF;
-font-size: 32px;
-font-weight: 800;
-}
-/* footer section */
-.footer{
-  margin-top: 100px;
-  width: 83.75rem;
-  height: 31.375rem;
-  background: rgba(19, 19, 24, 0.05);
-}
-.footer-img{
-  display: flex;
-}
-.footer-img h1{
-  color:  #131318;
-  font-size: 2rem;
-  font-weight: 800;
-  padding: 110px 0px 0px 12px;
-}
-.footer-img h1 span{
-  color: #FF5400;
-
-  font-size: 2rem;
-  font-weight: 800;
-}
-.footer-img img{
-  width: 2.5rem;
-  height: 2.9151875rem;
- padding: 130px 0px 0px 520px;
-}
-.footer p{
-  width: 769px;
-  color: #5A5A5D;
+  margin: 250px 10px 0.14px 317px;
+  color: #fff;
   text-align: center;
-  font-size: 1rem;
+  font-size: 24px;
   font-weight: 400;
-  line-height: 1.5rem;
-  padding: 0px 0px 0px 250px;
 }
-.footer .i-tag{
-  width: 10.875rem;
-  height: 1.5rem;
-  margin-left: 34.375rem;
-  margin-top: 2rem;
+.save-70 {
+  color: #fff;
+  font-size: 32px;
+  font-weight: 800;
 }
-.footer i{
-  margin-left: 1.25rem;
+/* Customer Review */
+#customer-feedback {
+  text-align: center;
+  color: #131318;
+  font-weight: 800;
+  padding-bottom: 15px;
 }
-.footer hr{
-  width: 872px;
+
+.feedback {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  gap: 30px;
+  margin-bottom: 80px;
+}
+
+.feedback .customer-feedback {
+  /* height: 100px; */
+  padding: 20px;
+  min-width: auto;
+  max-width: 400px;
+  border: 1px solid darkorange;
+  border-radius: 16px;
+  background: rgb(237, 243, 243);
+}
+
+.feedback .customer-feedback p {
+  text-align: justify;
+}
+
+/* footer section */
+.footer {
+  margin-top: 50px;
+  padding-bottom: 20px;
+  background: rgba(19, 19, 24, 0.05);
+  text-align: center;
+}
+
+.footer .footer-logo-title {
+  display: flex;
+  justify-content: center;
+  padding-top: 110px;
+}
+
+.footer .footer-logo-title img {
+  padding: 12px 5px;
+}
+
+.footer .footer-logo-title .footer-title {
+  color: #131318;
+  font-size: 32px;
+  font-weight: 800;
+  line-height: 0%;
+  padding: 0;
+  margin: 0;
+}
+
+.footer p {
+  width: 40%;
+  padding: 0 30% 10px;
+}
+
+.footer .footer-socila-media img {
+  height: 50px;
+  width: 50px;
+  padding: 15px;
+  margin: 5px;
+}
+
+.footer .footer-socila-media img:hover {
+  background: #bd9a8225;
+  border-radius: 50%;
+}
+
+.footer hr {
+  padding: 10px 15%;
   height: 1px;
-  margin-top: 3rem;
-  margin-bottom: 3rem;
+}
+
+.footer .small {
+  margin-bottom: 20px;
 }
 /* Responsive Styles */
 @media screen and (max-width: 600px) {
   .banner {
     width: 100%;
     height: 483px;
-    margin-left: 50px;
+    margin-left: 30px;
   }
   .explore-title {
     color: #fff;
@@ -486,51 +517,17 @@ font-weight: 800;
   .last-two,
   .news-letter,
   .services,
-.best-div {
+  .best-div {
     align-items: center;
     flex-direction: column;
   }
-  .footer,{
-    width: 100%;
-  }
-  .footer-img{
-    display: flex;
-  }
-  .footer-img h1{
-    font-size: 21.543px;
-    font-weight: 800;
-  }
-  .footer-img h1 span{
-    color: #FF5400;
-    font-size: 21.543px;
-  }
-  .footer-img img{
-    width: 2.5rem;
-    height: 2.9151875rem;
-   padding: 130px 0px 0px 520px;
-  }
-  .footer p{
-    color: #5A5A5D;
+  .bandarban {
+    border-radius: 16px;
     text-align: center;
-    font-family: Mulish;
-    font-size: 14px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 24px;
-  }
-  .footer .i-tag{
-    width: 10.875rem;
-    height: 1.5rem;
-    margin-left: 34.375rem;
-    margin-top: 2rem;
-  }
-  .footer i{
-    margin-left: 1.25rem;
-  }
-  .footer hr{
-    width: 872px;
-    height: 1px;
-    margin-top: 3rem;
-    margin-bottom: 3rem;
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 5px;
+    padding: 132px 220px;
+    background-repeat: no-repeat;
   }
 }
